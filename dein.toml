@@ -1,0 +1,44 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'vimlab/split-term.vim'
+
+[[plugins]]
+repo = 'dense-analysis/ale'
+hook_add = 'source ~/.config/nvim/ale.vim'
+
+[[plugins]]
+repo = 'jacoborus/tender.vim'
+hook_add = 'colorscheme tender'
+
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+hook_add = 'source ~/.config/nvim/lightline.vim'
+
+[[plugins]]
+repo = 'preservim/nerdtree'
+hook_add = 'source ~/.config/nvim/nerdtree.vim'
+
+[[plugins]]
+repo = 'terryma/vim-expand-region'
+hook_add = 'source ~/.config/nvim/vim-expand-region.vim'
+
+[[plugins]]
+repo = 'simeji/winresizer'
+
+[[plugins]]
+repo = 'easymotion/vim-easymotion'
+hook_add = 'source ~/.config/nvim/vim-easymotion.vim'
+
+[[plugins]]
+repo = 'junegunn/fzf'
+build = './install --all'
+
+[[plugins]]
+repo = 'junegunn/fzf.vim'
+hook_add = 'source ~/.config/nvim/fzf.vim'
+
+[[plugins]]
+repo = 'rickhowe/diffchar.vim'
+
