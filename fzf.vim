@@ -9,7 +9,7 @@ noremap <Leader>fm :Marks<CR>
 let g:fzf_layout = { 'down': '30%' }
 let g:fzf_action = {
     \'ctrl-t': 'tab split',
-    \'ctrl-j': 'split',
+    \'ctrl-i': 'split',
     \'ctrl-k': 'vsplit'
 \}
 
